@@ -1,0 +1,56 @@
+*Write a blog on Difference between HTTP1.1 vs HTTP2*
+
+HTTP stands for Hypertext Transfer Protocol, which is a protocol for transferring data over the web.
+HTTP is a "client-server protocol", which means that it involves communication between a client (such as a web browser or mobile app) and a server (which hosts the website or web application). 
+The client sends an HTTP request to the server, which then the server sends an HTTP response back to the client.  
+ Web client - web browsers & applications.
+ Web servers - websites & servers.
+From the release of HTTP1.1 in 1997 until recently, there have been few revisions to the protocol. 
+But in 2015, a reimagined version called HTTP2 came into use.
+There have been several versions of the HTTP protocol, including HTTP 1.0, HTTP 1.1, HTTP/2, and HTTP/3.
+
+ But now we sare going to see the Difference between HTTP1.1 & HTTP2 :
+
+HTTP1.1 :
+HTTP 1 (Hypertext Transfer Protocol version 1) is the original version of the HTTP protocol, which is used for communication between web servers and clients, such as web browsers.
+HTTP 1.0 was introduced in 1996, and HTTP 1.1 was introduced in 1999.
+
+Here are some benefits of HTTP 1.1:
+* Persistent connections
+* Pipelining
+* Caching
+* Chunked transfer encoding
+* Improved error handling
+
+LIMITATIONS of HTTP1.1 :
+* Lack of multiplexing
+* Header inefficiency
+* Inability to prioritize requests
+* No support for server push
+
+To resolve these limitations HTTP2 was introduced.
+
+HTTP2 :
+HTTP/2 (Hypertext Transfer Protocol version 2) is an updated version of the HTTP protocol, which was introduced in 2015. 
+It was designed to address some of the limitations and performance issues of HTTP/1.1 and improve the speed and efficiency of web communication.
+Limitations like multiplexing,severe push , prioritizing in HTTP1.1 were resolved in HTTP2
+
+Features ;
+* Multiplexing
+* Binary protocol
+* Header compression
+* Prioritization
+
+This upgraded version also has some limitations like ;
+*Implementation complexity
+*Server resource consumption
+*Security concerns
+*Performance limitations
+
+OVERALL:
+
+Whereas HTTP1.1 addressed some of the limitations of HTTP/1.0 by introducing features such as "persistent connections, pipelining, and improved caching" ,
+  it still had some limitations, such as head-of-line blocking and the inability to efficiently handle large numbers of small requests.
+To resolve this limitations only HTTP2 was introduced with upgraded features.
+Whenever a version comes there will be benefits and there will be limitations there , so a new set of versions will enter into market all the time.
+

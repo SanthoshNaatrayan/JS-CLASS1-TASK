@@ -1,0 +1,14 @@
+*Write a blog about objects and its internal representation in Javascript*
+
+
+OBJECTS :
+
+Objects, in JavaScript, is it’s most important data-type and forms the building blocks for modern JavaScript.
+These objects are quite different from JavaScript’s primitive data-types(Number, String, Boolean, null, undefined and symbol) in the sense that while these primitive data-types all store a single value each (depending on their types).
+Objects are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+
+In Layman's term : in object the variable does not stores values directly there were keys which stores value in it , by these we can easily the access the values.
+Thus storing and retrieving is easy in objects.
+
+ A JavaScript object has properties associated with it. A property of an object can be explained as a variable that is attached to the object.
+Like all JavaScript variables, both the object name and property name are case sensitive.
